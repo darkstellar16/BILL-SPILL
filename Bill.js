@@ -29,7 +29,7 @@ ans2.addEventListener('click', function () {
 })
 function calc() {
     var entValue = parseInt(entval.value);
-    tipamount = (ans1 * entValue) / 100;
+    tipamount = ((ans1 * entValue) / 100)/x;
     total = entValue + parseInt(tipamount);
     document.getElementById("seven2").innerText = tipamount;
     document.getElementById("eight2").innerText = total;

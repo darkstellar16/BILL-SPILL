@@ -283,7 +283,8 @@ img {
     font-size: large;
     background-color: #C39FFF;
     color: #9C60FF;
-    border-radius: 3%
+    border-radius: 2px;
+    border: #9C60FF;
 }
 
 body {
